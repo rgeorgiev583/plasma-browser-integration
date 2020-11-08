@@ -107,6 +107,12 @@
     "options_plugin_mpris_media_sessions_title": {
         "message": "Enhanced Media Controls"
     },
+    "options_plugin_mpris_in_incognito_mode_description": {
+        "message": "Enable media controls in incognito mode (i.e. private windows)."
+    },
+    "options_plugin_mpris_in_incognito_mode_title": {
+        "message": "Media Controls in Incognito Mode"
+    },
     "options_plugin_mpris_title": {
         "message": "Media Controls"
     },

@@ -24,6 +24,9 @@ DEFAULT_EXTENSION_SETTINGS = {
     mprisMediaSessions: {
         enabled: true
     },
+	mprisInIncognitoMode: {
+		enabled: false
+	},
     kdeconnect: {
         enabled: true
     },

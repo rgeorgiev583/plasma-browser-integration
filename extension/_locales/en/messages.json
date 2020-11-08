@@ -59,6 +59,13 @@
         "message": "Extract metadata and thumbnails of currently playing content."
     },
 
+    "options_plugin_mpris_in_incognito_mode_description": {
+        "message": "Enable media controls in incognito mode (i.e. private windows)."
+    },
+    "options_plugin_mpris_in_incognito_mode_title": {
+        "message": "Media Controls in Incognito Mode"
+    },
+
     "options_plugin_kdeconnect_title": {
         "description": "Title for KDE Connect plugin",
         "message": "Send via KDE Connect"

@@ -173,7 +173,8 @@ addRuntimeCallback("mpris", "playing", function (message, sender) {
     // However, after the update the extension keeps running in incognito mode.
     // So we keep disabling media controls for them to prevent accidental private
     // information leak on lock screen or now playing auto status in a messenger
-    if (IS_FIREFOX && sender.tab.incognito) {
+	const settings = await SettingsUtils.get();
+    if (!settings.mprisInIncognitoMode.enabled && IS_FIREFOX && sender.tab.incognito) {
         return;
     }
 
